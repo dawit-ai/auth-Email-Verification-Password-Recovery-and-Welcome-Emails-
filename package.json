@@ -1,0 +1,32 @@
+{
+  "name": "advanced-auth",
+  "version": "1.0.0",
+  "description": "email verification , password recovery ,welcome email",
+  "homepage": "https://github.com/dawit-ai/advanced-MERN-auth-#readme",
+  "bugs": {
+    "url": "https://github.com/dawit-ai/advanced-MERN-auth-/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dawit-ai/advanced-MERN-auth-.git"
+  },
+  "license": "ISC",
+  "author": "dawit kefiyalew",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon Backend/index.js "
+  },
+  "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.6",
+    "crypto": "^1.0.1",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "jsonwebtoken": "^9.0.3",
+    "mailtrap": "^4.8.0",
+    "mongoose": "^9.9.1",
+    "nodemon": "^3.1.14"
+  }
+}
